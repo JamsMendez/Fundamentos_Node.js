@@ -10,7 +10,7 @@ readable.on('data', function (buffer) {
 });
 
 readable.on('end', function () {
-  //console.log("End readStream"); 
+  //console.log("finish");
 });
 
 
