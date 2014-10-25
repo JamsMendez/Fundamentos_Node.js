@@ -2,7 +2,9 @@
 function async(args_, cb) {
 }
 
-function final() {  }
+function final() {
+  console.log('finish');
+}
 
 // A simple async series:
 var items = [ 1, 2, 3, 4, 5, 6 ];
